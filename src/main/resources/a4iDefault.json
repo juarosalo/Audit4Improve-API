@@ -9,12 +9,12 @@
 			"type": "java.lang.Integer",
 			"description": "Número de pull requests a la rama de desarrollo aceptados en el último mes",
 			"unit": "pullRequestsAcceptedLastMonth"
-		}{
+		},{
 			"name": "pullRequestsRejectedLastMonth",
 			"type": "java.lang.Integer",
 			"description": "Número de pull requests a la rama de desarrollo rechazados en el último mes",
 			"unit": "pullRequestsRejectedLastMonth"
-		}{
+		},{
 			"name": "pullRequestsRejectedLastYear",
 			"type": "java.lang.Integer",
 			"description": "Número de pull requests a la rama de desarrollo rechazados en el último año",
