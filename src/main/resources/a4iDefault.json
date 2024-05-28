@@ -1,5 +1,25 @@
 {
 	"metrics": [{
+			"name": "pullRequestsAcceptedLastYear",
+			"type": "java.lang.Integer",
+			"description": "Número de pull requests a la rama de desarrollo aceptados en el último año",
+			"unit": "pullRequestsAcceptedLastYear"
+		},{
+			"name": "pullRequestsAcceptedLastMonth",
+			"type": "java.lang.Integer",
+			"description": "Número de pull requests a la rama de desarrollo aceptados en el último mes",
+			"unit": "pullRequestsAcceptedLastMonth"
+		}{
+			"name": "pullRequestsRejectedLastMonth",
+			"type": "java.lang.Integer",
+			"description": "Número de pull requests a la rama de desarrollo rechazados en el último mes",
+			"unit": "pullRequestsRejectedLastMonth"
+		}{
+			"name": "pullRequestsRejectedLastYear",
+			"type": "java.lang.Integer",
+			"description": "Número de pull requests a la rama de desarrollo rechazados en el último año",
+			"unit": "pullRequestsRejectedLastYear"
+		},{
 			"name": "subscribers",
 			"type": "java.lang.Integer",
 			"description": "Número de suscriptores, watchers en la web",
@@ -70,6 +90,12 @@
 			"name": "issuesRatio",
 			"type": "java.lang.Double",
 			"description": "Ratio de issues abiertos frente a cerrados",
+			"unit": "ratio"
+		},
+		{
+			"name": "pullRequestsAcceptance",
+			"type": "java.lang.Double",
+			"description": "Resta de los cocientes entre PR rechazados y aceptados en el último año y mes",
 			"unit": "ratio"
 		}
 	]
